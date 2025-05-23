@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-yellow-50">
+
+    <b><h1 class="text-4xl text-yellow-800 font-bold text-center mt-[0.5cm]">Sweet Delights Bakery</h1></b>
+    <p class="text-center text-yellow-600 mt-3 mb-8">Order Form</p>
+
+    <div class="justify-center">
+        <div class="items-center justify-center max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 w-3/4">
+            <p class="md:font-bold text-orange-400 mb-3 text-lg">Customer Information</p>
+
+            <form>
+                <div class="mb-4">
+                    <label for="fullname" class="md:font-bold ">Full Name*</label>
+                    <input type="text" id="fullname" class=" w-full border border-gray-200 rounded-lg h-10">
+                </div>
+
+                <div class="mb-4">
+                    <label for="phonenumber" class="md:font-bold">Phone Number*</label>
+                    <input type="text" id="phonenumber" class=" w-full border border-gray-200 rounded-lg h-10">
+                </div>
+
+                <div class="mb-4">
+                    <label for="address" class="md:font-bold">Address*</label>
+                    <textarea class="py-1 px-2 border border-gray-200 rounded-md w-full">
+                    </textarea>
+                </div>
+            </form>
+
+            <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-200">
+
+            <p class="text-orange-500 mb-4 md:font-bold text-lg">Select Your Items</p>
+
+            <p class="md:font-bold mb-3">Breads</p>
+            
+            <div class="flex">
+                <div class="flex items-center mb-4 mr-4">
+                    <input id="default-checkbox-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-200 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox-1" class="ms-2 text-sm font-medium ml-2">Sourdough Bread ($5.99)</label>
+                    <form class="ml-18 ">
+                        <div class="w-full max-w-sm min-w-[50px]">    
+                            <div class="relative">
+                                <select class="w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:border-slate-400 hover:border-slate-300 cursor-pointer appearance-none">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="h-5 w-5 ml-1 absolute top-2.5 right-2.5 text-slate-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                                </svg>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+              
+                <div class="flex items-center mb-4 ml-2">
+                  <input id="default-checkbox-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-200 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                  <label for="default-checkbox-2" class="ms-2 text-sm font-medium ml-2">French Baguette ($4.50)</label>
+                    <form class="ml-17">
+                        <div class="w-full max-w-sm min-w-[50px]">
+                            <div class="relative">
+                                <select class="w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:border-slate-400 hover:border-slate-300 cursor-pointer appearance-none">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="h-5 w-5 ml-1 absolute top-2.5 right-2.5 text-slate-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                            </svg>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <p class="md:font-bold mb-3">Pastries</p>
+            
+            <div class="flex">
+                <div class="flex items-center mb-4 mr-4">
+                    <input id="default-checkbox-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-200 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="default-checkbox-1" class="ms-2 text-sm font-medium ml-2">Butter Croissant ($3.50)</label>
+                    <form class="ml-18">
+                        <div class="w-full max-w-sm min-w-[50px]">    
+                            <div class="relative">
+                                <select class="w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:border-slate-400 hover:border-slate-300 cursor-pointer appearance-none">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="h-5 w-5 ml-1 absolute top-2.5 right-2.5 text-slate-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                                </svg>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+              
+                <div class="flex items-center mb-4 ml-2">
+                  <input id="default-checkbox-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-200 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                  <label for="default-checkbox-2" class="ms-2 text-sm font-medium ml-3">Blueberry Muffin ($3.25)</label>
+                    <form class="ml-18">
+                        <div class="w-full max-w-sm min-w-[50px]">
+                            <div class="relative">
+                                <select class="w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:border-slate-400 hover:border-slate-300 cursor-pointer appearance-none">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="h-5 w-5 ml-1 absolute top-2.5 right-2.5 text-slate-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                            </svg>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <p class="md:font-bold mb-3">Cakes</p>
+            
+            <div class="flex">
+                <div class="flex items-center mb-4 mr-4">
+                    <input id="default-checkbox-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-200 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox-1" class="ms-2 text-sm font-medium ml-2">Chocolate Cake ($28.99)</label>
+                            <form class="ml-18">
+                    <div class="w-full max-w-sm min-w-[50px]">    
+                        <div class="relative">
+                                <select class="w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:border-slate-400 hover:border-slate-300 cursor-pointer appearance-none">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="h-5 w-5 ml-1 absolute top-2.5 right-2.5 text-slate-700">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                        </svg>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              
+                <div class="flex items-center mb-4 ml-2">
+                  <input id="default-checkbox-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-200 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                  <label for="default-checkbox-2" class="ms-2 text-sm font-medium ml-2">NY Cheesecake (32.00)</label>
+                    <form class="ml-18">
+                        <div class="w-full max-w-sm min-w-[50px]">
+                            <div class="relative">
+                                <select class="w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 focus:outline-none focus:border-slate-400 hover:border-slate-300 cursor-pointer appearance-none">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="h-5 w-5 ml-1 absolute top-2.5 right-2.5 text-slate-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                            </svg>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class=" flex items-center justify-center">
+                <button class="py-[9px] px-[30px]  rounded-full font-medium bg-yellow-800 text-white hover:bg-yellow-900">Place order</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
